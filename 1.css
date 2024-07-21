@@ -1,0 +1,417 @@
+
+
+body {
+    /* background-image: url("/Designer.jpeg"); */
+    background-blend-mode:difference;
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+     
+  }
+  
+  body::-webkit-scrollbar-track {
+    background:#ffffff;        /* color of the tracking area */
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #00f2ff91;    /* color of the scroll thumb */
+    border-radius: 5px;       /* roundness of the scroll thumb */
+    border: 1px solid black;  /* creates padding around scroll thumb */
+  }
+
+.whole-page {
+    margin: 0 8%;
+    font-family: arial
+
+}
+
+.inner-class {
+    margin-top: 1%;
+    width: 100%;
+
+}
+
+.above-top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    background-image: url("/My\ first\ design.png");
+    background-repeat: no-repeat;
+    width: 110px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.search {
+    border: 1px solid rgb(170, 165, 165);
+    background-color: rgb(130,130,130);
+
+}
+
+/*  Top menu bar code */
+
+.menu {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    border-radius: 15%;
+    width: 100%;
+    background-color:#ffc800;
+    position: relative;
+
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul {
+    padding-left: initial;
+    margin-top: 5px;
+}
+
+.menu li a, i{
+    font-size: 13px;
+    margin: 0;
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 2.2;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.menu-item:hover {
+    background-color: #e1f500df;
+    display: inline-block;
+}
+
+
+.sub-menu {
+    display:none;
+}  
+
+
+.menu ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background: rgb(245,245,245);
+    box-shadow: 5px 8px 12px #888888;
+} 
+
+
+.sub-menu ul li{
+    display: block;
+    list-style: none;
+}
+
+.sub-menu ul li h4{
+    color: #00fffb;
+    background-color: rgb(245,245,245);
+    padding-left: 2.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    font-size: 15px;
+}
+
+.sub-menu2 ul {
+    background-color: white;
+    border: solid 3px rgb(245,245,245);
+    padding-left: 0px;
+}
+
+.sub-menu2 ul li {
+    display: inline-block;
+    margin-left: 3%;
+    
+}
+
+
+.sub-menu2 ul li a{
+    color: rgb(46,166,209);
+    font-size: 14px;
+      
+}
+
+.sub-menu2 ul li a:hover{
+    text-decoration: underline;
+      
+}
+
+
+/*  Top menu bar code end */
+
+
+
+.heading {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #e1ff00;
+}
+
+.breadcrum {
+    line-height: 1.8;
+    margin: 0;
+    padding: 3px 9px;
+    width: auto;
+    border: 1px solid #f0f0f0;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 2px;
+}
+
+.breadcrum a {
+    color: #07C;
+}
+
+.mid-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+
+.content-left {
+    width: 69%;
+    box-sizing: border-box;
+    margin-right: 0.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-right {
+    width: 27%;
+} 
+
+.content-right p {
+    margin-left: 10px;
+} 
+
+.footer {
+    border-top: 2px solid #eee;
+    padding-top: 10px;
+    background-color: #f9f9f9;
+    min-height: 50px;
+    text-align: center;
+    font-size: 11px;
+
+   
+}
+
+.footer a {
+    text-decoration: none;
+    color: #07C;
+}
+
+.footer span {
+      color: #3700ff;
+}
+
+
+     
+/*************************   Card style ***********************************************/
+
+.card {
+    width: 44%;
+    margin-bottom: 15px;
+}
+
+.card-content {
+    display: flex; 
+    flex-direction: row;
+}
+
+
+.card-content div {
+    display: inline;
+}
+
+.card img {
+    width: 50px;
+   
+}
+
+.card-content ul {
+    margin-top: 0px;
+    padding-inline-start: 0px;
+}
+
+.card-content ul li {
+    width: 100%;
+    list-style: none;
+    padding: 3% 0 3% 2%;
+      
+}
+
+.card ul li a:hover {
+    text-decoration: underline;
+    
+}
+
+.card ul li i{
+    color: black;
+    
+}
+
+.card-title {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #dedede;
+    margin: 10px 0 10px;
+    padding: 5px 5px 5px 20px;
+    color: #008000;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+ 
+
+.card-items {
+    text-decoration: none;
+    padding-top: 10px;
+    color: #07C;
+}
+
+.card-items:hover{
+    text-decoration: underline;
+    
+}
+
+/******************************** FAQ Section designe *************************************/
+
+.faQ-main-div {
+    width: 100%;
+    margin: 4% 0; 
+}
+
+.faQ-main-div h2 {
+    font-weight: 900;
+    margin-bottom: 4%;
+
+}
+
+.faQ-inner-div {
+    margin-top: 2%;
+    background-color:#F2F2F2;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.faQ-inner-div a {
+   text-decoration: none;
+   color: black;
+}
+
+.faQ-inner-div p {
+    padding: 11px 0 11px 10px;
+}
+
+/* .faQ-inner-div:hover {
+    transform: scale(1.2);
+} */
+
+.faQ-ans-div p {
+    padding: 1%;
+    /* display: none; */
+}
+
+.faQ-ans-div{
+    display:none;
+}
+
+
+/* FAQ Section designe End */
+
+
+
+
+/****************************** Mobile view 1 card only ************************************/
+
+@media(max-width:768px) {
+
+    .mid-section {
+        flex-direction: column;
+    }
+
+    .search {
+        display: none;
+    }
+   
+    .content-left {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+       
+    }
+
+    .card {
+        width: 100%;  
+    }
+
+    .content-right {
+        width: 100%;
+    }
+
+   
+}
+
+
+/***************** Two cards but no right side space min-width:769px  **********************/
+
+@media(min-width:769px) and (max-width:991px){
+    .mid-section {
+        width: 100%;
+        flex-direction: column; 
+    }
+
+    .content-left {
+        width: 100%;
+    }
+
+    .card {
+        width: 48%;  
+    }
+
+    .card-right {
+        margin-left: 3%;
+    }
+
+    .content-right {
+        width: 100%;
+    }
+}
+
+
+
+/* Two cards and right side space */
+@media(min-width:992px) {}
+    /* css-selector {
+        background-color: blue;
+    }
+} */
+
+/* Mobile View End */
+
