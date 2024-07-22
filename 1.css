@@ -10,7 +10,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-    width: 10px;               /* width of the entire scrollbar */
+    width: 8px;       
     display: flex;
    justify-content: center;
    align-items: center; 
@@ -18,16 +18,17 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-track {
-    background:#ffffff;        /* color of the tracking area */
+    background-color: rgb(201, 199, 199);        /* color of the tracking area */
     display: flex;
    justify-content: center;
    align-items: center; 
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: #00f2ff91;    /* color of the scroll thumb */
-    border-radius: 5px;       /* roundness of the scroll thumb */
-    border: 1px solid black;  /* creates padding around scroll thumb */
+    background-color: #ffdf52c7;    /* color of the scroll thumb */
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom, #ebc416, #fe6a6a);
+    border: solid 0.5px  black;
   }
 
 .whole-page {
@@ -70,11 +71,15 @@ body::-webkit-scrollbar {
     margin: 0;
     border: 0;
     padding: 0;
-    border-radius: 15%;
     width: 100%;
-    background-color:#ffc800;
+    background-color:#ecb94bdf;
     position: relative;
 
+}
+
+.menu-item:hover {
+    background-color: #00b7ff9f;
+    display: inline-block;
 }
 
 .menu li {
@@ -99,10 +104,7 @@ body::-webkit-scrollbar {
     
 }
 
-.menu-item:hover {
-    background-color: #e1f500df;
-    display: inline-block;
-}
+
 
 
 .sub-menu {
@@ -252,11 +254,13 @@ body::-webkit-scrollbar {
 }
 
 .card img {
-    width: 50px;
+    width: 40px;
+    height: 40px;
    
 }
 
 .card-content ul {
+
     margin-top: 0px;
     padding-inline-start: 0px;
 }
