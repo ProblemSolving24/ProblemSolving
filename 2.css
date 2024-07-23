@@ -1,3 +1,12 @@
+.back_icon{
+    color: white;
+    width: 50px;
+}
+.subject_heading{
+    background-color: #ecb94bdf;
+    color: white;
+}
+
 table {
     margin: 2%;
     /* border: 1px solid black; */
