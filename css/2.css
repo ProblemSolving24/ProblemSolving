@@ -1,0 +1,234 @@
+.back_icon{
+    color: white;
+    width: 50px;
+}
+.subject_heading{
+    background-color: #ecb94bdf;
+    color: white;
+}
+
+table {
+    margin: 2%;
+    /* border: 1px solid black; */
+    /* border-bottom: 1px solid rgb(192,192,192); */
+}
+
+table td{
+      padding: 1% 0%;
+      line-height: initial;
+      /* border: 1px solid black; */
+  }
+
+table tr td a {
+    text-decoration: none;
+    color: #07C;
+}
+
+table tr td a:hover {
+    text-decoration: underline;
+}
+
+.options {
+    width:2%;   
+}
+
+.options-para {
+    padding: 0;
+    margin: 0;   
+}
+
+.right-wrong {
+    width: 14px;
+    margin: 0 5px;
+}
+
+
+.other-options {
+    color: black;
+    padding-bottom: 2%;
+   
+    /* border-bottom: 1px solid rgb(192,192,192); */
+      
+}
+
+.other-options i{
+    width: 16px;
+    margin-right: -9px;
+    padding: 0;
+       
+ }
+
+.other-options a {
+    text-decoration: none;
+    margin-right: 3%;
+    color: #07C;
+}
+
+
+
+.other-options img {
+    width: 14px;
+    margin-right: 5px;
+       
+ }
+
+
+.other-options a:hover {
+    text-decoration: underline;
+    
+}
+
+.fa-book-open, .fa-user-friends, .fa-clipboard, .fa-share-square{
+    color:rgb(8, 40, 221);
+}
+
+/* Other option buttons designe */
+
+.show-answer {
+    width:100%;
+    padding-top: 2%;
+    transition-duration: 500s;
+   
+}
+
+.show-answer p {
+    color: #008000;
+}
+
+.color-black {
+    color: black;
+}
+
+.hide-answer {
+    display: none;
+    transition-duration: 500s;
+   
+}
+
+/* .work-space {
+    
+    
+} */
+
+.show-work-space {
+    display: block;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.hide-work-space {
+    display: none;
+}
+
+/* .show-ans {
+    display: block;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 2%;
+} */
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.share-btn-container {
+    width: 30%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.share-btn-container a i {
+    font-size: 32px;
+}
+
+.share-btn-container a i {
+    padding: 16px;
+}
+
+.share-btn-container a:hover {
+    transform: scale(1.2);
+    transition: 300ms;
+
+}
+
+.share-btn-container .fa-facebook {
+    color: #3b5998;
+}
+
+.share-btn-container .fa-whatsapp {
+    color: #25d366;
+}
+
+.share-btn-container .fa-twitter {
+    color: #1da1f2;
+}
+
+.share-btn-container .fa-telegram {
+    color: #0088cc;
+}
+
+.share-btn-container .fa-link {
+    color: #fbb034;
+}
+
+/* 
+.share-btn-social:hover .container {
+    display: none;
+} */
+
+/* Paginator */
+
+
+/*
+.paginator hr {
+    margin: 20px 0px;
+}
+
+.paginator a {
+    color: #0088cc;
+    text-decoration:none; 
+} */
+
+/* end paginator */
+
+/* Pagination links */
+
+.pagination {
+    list-style-type: none;
+    padding: 2% 0% 7% 3%;
+}
+
+.pagination li  a{
+    text-decoration: none;
+  }
+
+.pagination li  {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+
+  
+  /* Style the active/current link */
+  .pagination li.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination li:hover:not(.active) {background-color: #ddd;}
+
+
