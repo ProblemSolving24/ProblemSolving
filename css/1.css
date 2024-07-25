@@ -30,9 +30,32 @@ body::-webkit-scrollbar {
     border: solid 0.5px  black;
   }
 
+.footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #f1f1f1;
+}
+
+.description {
+    color:tomato;
+    font-size: small;
+    display: none;
+    text-align: center;
+    padding: 5px;
+    background-color: #f9f9f9;
+}
+
+.contactbutton{
+    background-color:red;
+    color:white;
+    font-size:12px
+
+}
+
+
 .whole-page {
-    margin: 0 8%;
-    font-family: arial
+    margin: 2%;
+    font-family: Arial,
 
 }
 
