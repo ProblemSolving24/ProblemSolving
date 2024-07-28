@@ -1,6 +1,8 @@
 
 
 body {
+    background-color: #ffffff;
+    color: #000000;
     background-blend-mode:difference;
     /* background-repeat: no-repeat; */
     background-size: 100%;
@@ -29,6 +31,24 @@ body::-webkit-scrollbar {
     background-image: linear-gradient(to bottom, #ebc416, #fe6a6a);
     border: solid 0.5px  black;
   }
+
+  /* Default light mode styles here */
+
+body.dark-mode {
+    background-color:rgb(35, 37, 37);
+    background-blend-mode:soft-light;
+    color: #ffffff;
+}
+
+#darkmode{
+    display: flex;
+   justify-content:end;
+   align-items:end; 
+}
+
+/* Add any other dark mode styles for other elements */
+
+
 
 .footer {
     text-align: center;
