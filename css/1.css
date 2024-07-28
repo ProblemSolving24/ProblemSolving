@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
   /* Default light mode styles here */
 
 body.dark-mode {
-    background-color:rgb(35, 37, 37);
+    background-color:#131417;
     background-blend-mode:soft-light;
     color: #ffffff;
 }
