@@ -98,6 +98,8 @@ body.dark-mode {
     width: 110px;
     margin-bottom: 0;
     padding-bottom: 0;
+    display: block;
+    background-color: transparent;
 
 }
 
